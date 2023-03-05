@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/a61de1ffaa.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <section class="bg-cyan-500  w-full h-[100vh] flex justify-center items-center">
+        <div class="bg-slate-800 md:w-[30%] p-3 flex justify-center  pb-10 text-center shadow-lg  rounded">
+            <div>
+                <h1 class="text-3xl font-bold pb-5 text-white">Weather Apps</h1>
+                <input type="text" class="p-2 outline-none bg-transparent border-b-2 text-white font-semibold"  name="" id="input" placeholder="Enter Your City Name"> <button onclick="searchBtn()" class="bg-lime-200 py-2 px-3 rounded font-semibold">Search</button>
+                <div class="pb-5">
+                    <h2 id="validation" class=" absolute hidden text-left text-[red]">Please Enter Your City Name</h2>
+                    <h2 id="error" class="hidden absolute text-left text-[red]">City not found Try Again</h2>
+                </div>
+                <div id="output" class="text-white py-2 ">
+                 
+                   
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+
+
+
+
+
+
+    <!-- 656511421c984f7129deb2dacd36f5f6  5100 -->
+
+    <script src="script.js"></script>
+</body>
+</html>
